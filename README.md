@@ -1,26 +1,3 @@
-# Principles and Practice in Programming Languages
-# Mini-Project: Fall 2022
+For our extra credit mini-project, we have decided to learn more about the Lift framework and present how it relates to the concepts we have been exploring in our class, CSCI 3155. When looking for a framework to explore, we needed to keep in mind how we could tie it into the concepts we have been exploring, and Lift has shown itself to be heavily dependent on these same concepts, especially when it comes to higher-order functions and functions as values. Through our project video, we will show exactly how Lift incorporates these ideas in their framework, and how these concepts are used to create a powerful web application framework.
 
-See [instructions.md](instructions.md) for submission instructions.
-
-# TODO: Replace this with Your Project Title
-
-## Description
-
-TOD: Replace this with at least a few paragraphs describing your project.
-## Repository Organization
-
-TODO: Replace this with a description of the organization of your repository.
-
-## Building and Testing Instructions
-
-TODO: Replace with building and testing instructions. Please minimize the number of dependencies and as simple and platform-independent as possible. Consider, for example, using [Docker](https://www.docker.com/).
-
-## Presentation
-
-TODO: Update the following links and remove this line.
-
-- YouTube: https://youtu.be/TODO.
-- Script: [script.md](script.md) or [script.pdf](script.pdf).
-- Recording: [recording.mp4](recording.mp4).
-- Slides (if you use them in your recording): [slides.pdf](slides.pdf) and slide sources (e.g., [slides.pptx](slides.pptx) or [slides.key](slides.key)).
+Lift is a web application framework that was originally created to help scale and host online gaming services but has expanded to support all kinds of web applications. The framework components are written in Scala and are intended to integrate seamlessly with all Java applications that need web support. It is highly secure, modular in design, and is able to scale easily to host very large amounts of web traffic. It accomplishes this through the abstraction of data, or as they put it, Lift “seeks to abstract away the HTTP request/response cycle rather than placing object wrappers around the HTTP Request”. Through their use of data abstraction, heavy dependence on higher-order functions and functions as values, Lift will make a prime example of how the concepts we have been exploring in this class are applied to real-world examples.
